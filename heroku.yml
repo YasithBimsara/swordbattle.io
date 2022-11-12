@@ -1,0 +1,8 @@
+build:
+  docker:
+    worker: prockfile
+run:
+  worker:
+    command:
+      - python3 run.py
+    image: worker
